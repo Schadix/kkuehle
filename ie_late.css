@@ -1,0 +1,22 @@
+#contBlock {
+    position:relative;
+    z-index:3;
+}
+
+#contentWrapOuter {
+    position:relative;
+    z-index:4;/* z-index for content must be bigger then z-index for shadow */
+}
+
+.ieShadow {
+    display:block;
+    position:absolute;
+    z-index:2;
+    top:-4px;
+    left:-4px;
+    right:6px;
+    bottom:6px;
+    filter:progid:DXImageTransform.Microsoft.Blur(pixelradius=5);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Blur(pixelradius=5)";
+    background-color:#444;
+}

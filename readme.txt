@@ -1,0 +1,1 @@
+Clean, clear and readable with modern header and shadows. SEO-friendly theme structure and title optimization. Widgetized left menu and footer.
